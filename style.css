@@ -1,0 +1,46 @@
+/* * {
+  border: 2px solid black;
+} */
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* 第一步 */
+}
+
+.logo {
+  background-color: rgb(255, 255, 255);
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+
+  /* 第二步 */
+}
+
+.link {
+  background-color: rgb(255, 255, 255);
+  width: 40vw;
+
+  /* 第3步 */
+}
+
+.list {
+  list-style: none;
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+
+  /* 第３步 */
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
